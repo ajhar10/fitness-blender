@@ -17,7 +17,7 @@ const Service = ({ service }) => {
                     <Card.Text>{Length} Program- {duration}</Card.Text>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>Price: ${price}</Card.Text>
-                    <Button onClick={() => handleCheckout(id)} variant="primary"><Link className='text-white text-decoration-none' to='/checkout'>Explore to Buy</Link></Button>
+                    <Button onClick={() => handleCheckout(id)} variant="primary">Explore to Buy</Button>
                 </Card.Body>
             </Card>
         </div>

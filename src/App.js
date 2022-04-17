@@ -5,6 +5,7 @@ import useServices from './customHooks/customHooks';
 import Checkout from './Pages/Home/Checkoutf/Checkout/Checkout';
 import Home from './Pages/Home/Home/Home';
 import Service from './Pages/Home/Service/Service';
+import Notfound from './Pages/Notfound/Notfound';
 
 export const ServiceContext = createContext();
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/service' element={<Service></Service>}></Route>
         <Route path='/service/:id' element={<Checkout></Checkout>}></Route>
+        <Route path='*' element={<Notfound></Notfound>}></Route>
       </Routes>
     </ServiceContext.Provider>
   );

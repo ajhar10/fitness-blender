@@ -6,7 +6,7 @@ import Service from '../Service/Service';
 const Services = () => {
     const [services, setServices] = useContext(ServiceContext);
     return (
-        <div className='container'>
+        <div id='services' className='container'>
             <h1 className="text-center text-info my-5">Our Services</h1>
             <div className='row'>
                 {
