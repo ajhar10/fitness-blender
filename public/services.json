@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "FB Low Impact Round 2 - Build Muscle & Burn Fat;",
+        "Length": "4 Weeks",
+        "duration": " 40 Minutes or Less",
+        "Days_Per_Week": "5 + 1 optional",
+        "price": "14.99",
+        "Training_Type": "Balance/Agility, Cardiovascular, HIIT, Pilates, Strength Training, Toning",
+        "description": "Our new 4 Week FB Low Impact is a uniquely challenging program that can help you build muscle and burn fat, without any jumping at all. All of the workouts are low impact, but that doesn't mean they're easy; a person with virtually any fitness level can benefit from the smart workouts in this program. The main training styles are strength training, Pilates, low impact HIIT/cardio, functional movements, balance, coordination, and flexibility. You'll be doing a different workout video every single day—no repeats. Workouts are 5 days a week, with an optional 6th day recovery-based workout. With that said, this program can be completed at a much slower pace in order to be even more beginner friendly. Even if you complete this program at a pace of 2 workouts per week, it will still be effective. All the way through, we provide both extra credit workouts (if you feel like you want to push yourself harder), as well as easier alternative workouts, if the scheduled routine is particularly challenging. This program can lead to weight loss and a noticeable change in body composition. Your energy levels may be higher, your health and mood are likely to improve, as well as your strength, endurance, flexibility, and balance.",
+        "img": "https://i.ibb.co/HzTfhYM/p4.jpg"
+    },
+    {
+        "id": 2,
+        "name": "FB Blend - Burn Fat, Build Muscle, Tone",
+        "Length": "4 Weeks",
+        "duration": "35 or 55 Minutes ",
+        "Days_Per_Week": "5 + 1 optional",
+        "price": "14.99",
+        "Training_Type": "Balance/Agility, Cardiovascular, HIIT, Pilates, Strength Training, Toning",
+        "description": "FB Blend is a fun, challenging, and flexible workout plan; you get to choose the length of your workouts each day, roughly 35 or 55 minutes a day, depending on your own schedule and energy levels. Each day of this program offers a unique workout - you'll never have to do the same video twice. It's a smart combination of HIIT, strength training, functional movement, Pilates, supersets, cardio, plyometrics, stretching, yoga and more. All you need is dumbbells and even if you don't have dumbbells, you can still get in a great workout using your own bodyweight. Because you pick the length of your workout each day, this program is essentially two of our most popular programs in one; FB30 (our 30 minute program) and FBFit (our 50 minute program). If you love FB Sweat, or FB Burn, you will love FB Blend because of the shared flexibility in actual workout length. ",
+        "img": "https://i.ibb.co/F5vfCHX/p1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "FB 30 - Fat Loss Program For Busy People",
+        "Length": "4 Weeks",
+        "duration": " 30 Minutes a day",
+        "Days_Per_Week": "5 + 1 optional",
+        "price": "14.99",
+        "Training_Type": "Balance/Agility, Cardiovascular, HIIT, Plyometric, Strength Training, Stretching/Flexibilit",
+        "description": "FB 30 is our all-time most popular program structure - the smart, effective, and fun workouts that ask for 30 minutes of your day make it easy to love. It's impossible to get bored with this program, as you'll be doing a different, carefully-selected workout video each day of the program; there are no repeats! The strategic combination of HIIT and strength training in this total body program is excellent for burning fat, building lean muscle, and becoming overall more physically healthy and capable. These are tried and true, scientifically-backed training methods. The workouts will challenge your muscular strength, cardiovascular endurance, coordination, speed, proprioception, balance, and flexibility.  These workouts can absolutely make you look great, but we want you to also feel great. Our aim is to guide you to move well, and live well. We want you to feel strong and capable, energetic and able to live easily in your own body.",
+        "img": "https://i.ibb.co/YPNMZ06/p2.jpg"
+    },
+    {
+        "id": 4,
+        "name": "FB Bodyweight - Only Fat Loss Program",
+        "Length": "4 Weeks",
+        "duration": " 40 Minutes (40-60)",
+        "Days_Per_Week": "5 + 1 optional",
+        "price": "14.99",
+        "Training_Type": "Cardiovascular, HIIT, Strength Training, Toning",
+        "description": "Our 4 Week Bodyweight-Only Fat Loss Program uses our online workout calendar to provide a detailed, day-by-day plan of workout videos to quickly and safely change your body and your health - all without using a single piece of equipment. The calendar tracks your progress through the challenging and highly effective HIIT, bodyweight strength training, cardio, plyometric, Pilates, stretching, yoga, balance & agility training workouts, to help you get fit as fast as possible. Many people who complete these programs see weight loss, reduced body fat, drastic improvements in body tone, endurance, strength, & flexibility gains. There are 5 challenging workout days a week, with an optional 6th day of a quick stretching or yoga routine. The workout sessions range from 20-60 minutes, but average out to under 40 minutes a day. This workout program includes a guide to clean eating that gives you a general but incredibly effective rundown on how to eat during this program for better health & faster results (please note, this is a general guide and not a meal plan). Each day you get a calorie burn estimate as well as frequent opportunities for bonus workout challenges to see results even faster. No equipment.",
+        "img": "https://i.ibb.co/3CbbBKL/p3.jpg"
+    }
+]
