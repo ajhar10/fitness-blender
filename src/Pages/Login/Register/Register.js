@@ -8,7 +8,7 @@ import { async } from '@firebase/util';
 
 const Register = () => {
     const [agree, setAgree] = useState(false);
-    const [createUserWithEmailAndPassword, user] = useCreateUserWithEmailAndPassword(auth);
+    const [createUserWithEmailAndPassword, user] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
     const [updateProfile] = useUpdateProfile(auth);
 
     const navigate = useNavigate();
