@@ -1,6 +1,6 @@
 # Fitness Blender
 
-Live Site [Click Here](https://hungry-mart-e426b.web.app/).
+Live Site [Click Here](https://fitness-blender-d10c8.web.app/).
 
 ## Description
 
