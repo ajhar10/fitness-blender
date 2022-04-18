@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import { ServiceContext } from '../../../App';
-import useServices from '../../../customHooks/customHooks';
 import Service from '../Service/Service';
 
 const Services = () => {

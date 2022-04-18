@@ -1,39 +1,37 @@
-import { async } from '@firebase/util';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import './Register.css';
-import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import auth from '../../../firebase.init';
+import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
+import { async } from '@firebase/util';
 
 const Register = () => {
     const [agree, setAgree] = useState(false);
-    const [
-        createUserWithEmailAndPassword,
-        user,
-        loading,
-        error,
-    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
-    const [updateProfile, updating, error2] = useUpdateProfile(auth);
+    const [createUserWithEmailAndPassword, user] = useCreateUserWithEmailAndPassword(auth);
+    const [updateProfile] = useUpdateProfile(auth);
 
     const navigate = useNavigate();
 
     const navigateLogin = () => {
         navigate('/login');
     }
-    if (user) {
-        console.log('user', user);
-    }
+
 
     const handleRegister = async (event) => {
         event.preventDefault();
-        const name = event.target.name.value
-        const email = event.target.email.value
-        const password = event.target.password.value
+        const name = event.target.name.value;
+        const email = event.target.email.value;
+        const password = event.target.password.value;
+        console.log(email, password);
+        createUserWithEmailAndPassword(email, password);
         await createUserWithEmailAndPassword(email, password);
         await updateProfile({ displayName: name });
-        navigate('/home')
+        navigate('/')
 
+    }
+    if (user) {
+        console.log('user', user);
     }
     return (
         <div className='register-form mt-5'>
